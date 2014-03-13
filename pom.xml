@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>donglin.ma</groupId>
@@ -22,4 +22,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <modules>
+    <module>project_template_hotel_model</module>
+    <module>project_template_hotel_dao</module>
+    <module>project_template_hotel_common</module>
+    <module>project_template_hotel_service</module>
+    <module>project_template_hotel_biz</module>
+    <module>project_template_hotel_main</module>
+    <module>project_template_hotel_task</module>
+  </modules>
 </project>
